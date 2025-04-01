@@ -51,16 +51,16 @@ $ make  # Build Binutils 2.39 and GCC 12.2.0
 Or invoke the individual make targets.
 
 ```console
-$ make deps-binutils  # Download and extract the Binutils 2.39 source
+$ make deps-binutils   # Download and extract the Binutils 2.39 source
 ...
 
-$ make build-utils    # Build Binutils 2.39
+$ make build-binutils  # Build Binutils 2.39
 ...
 
-$ make deps-gcc       # Download and extract the GCC 12.2.0 source
+$ make deps-gcc        # Download and extract the GCC 12.2.0 source
 ...
 
-$ make build-gcc      # Build GCC 12.2.0
+$ make build-gcc       # Build GCC 12.2.0
 ...
 ```
 
